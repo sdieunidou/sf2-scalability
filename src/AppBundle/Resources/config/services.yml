@@ -1,4 +1,8 @@
 services:
-#    app.example:
-#        class: AppBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+
+  app.file_storage:
+      class: AppBundle\Manager\FileStorageManager
+      arguments:
+         - "@aws.s3"
+         - %amazon_bucket_name%
+         - %amazon_bucket_url%

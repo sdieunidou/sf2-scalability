@@ -17,3 +17,10 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    # Amazon S3 parameters
+    amazon_key:         YOUR_AWS_KEY
+    amazon_secret_key:  YOUR_AWS_SECRET
+    amazon_bucket_name: YOUR_BUCKET_NAME
+    amazon_bucket_url:  YOUR_BUCKET_BASE_URL
+    amazon_region:      YOUR_REGION

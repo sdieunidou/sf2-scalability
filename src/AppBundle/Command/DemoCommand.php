@@ -20,7 +20,7 @@ class DemoCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('demo:lock')
+            ->setName('app:demo:lock')
             ->setDescription('Redis lock demo')
         ;
     }

@@ -1,0 +1,6 @@
+aws:
+    version:    latest
+    region:     %amazon_region%
+    credentials:
+        key:    %amazon_key%
+        secret: %amazon_secret_key%

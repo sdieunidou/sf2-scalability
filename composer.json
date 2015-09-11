@@ -21,7 +21,9 @@
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
         "predis/predis": "^1.0",
-        "snc/redis-bundle": "^1.1"
+        "snc/redis-bundle": "^1.1",
+        "aws/aws-sdk-php": "^3.3",
+        "aws/aws-sdk-php-symfony": "^1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
